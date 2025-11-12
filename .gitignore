@@ -1,0 +1,14 @@
+node_modules/
+.env
+.DS_Store
+*.log
+dist/
+build/
+uploads/
+temp/
+# Storage files (keep folder structure but ignore generated files)
+storage/activation_code/*.png
+storage/general/*.png
+!storage/activation_code/.gitkeep
+!storage/general/.gitkeep
+
